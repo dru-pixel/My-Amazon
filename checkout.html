@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppers</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="nav_menu">
+    <div class="logo">
+        <img src="images/logo.png" width="70%">
+    </div>
+
+    <div class="nav-items">
+        <ul>
+            <li><a class="nav-link" href="index.html">HOME</a></li>
+            <li><a class="nav-link" href="store.html">STORE</a></li>
+            <li><a class="nav-link" href="#">CHECKOUT</a></li>
+        </ul>
+    </div>
+    <div class="cart-icon">
+       <a href="checkout.html">
+        <img src="images/shopping-cart.png" width="20%">
+        <div class="cart-quantity js-cart-quantity">0</div>
+        </a>
+    </div>
+    </nav>
+
+  <h1 class="checkout-title">Secure Checkout</h1>
+  <div class="checkout">
+    <div class="checkout2">
+            <div class="payment">
+                <p class="delivery">1.REVIEW YOUR ORDER (1 items)</p>
+                <div class="date-and-order-item">
+                <p class="delivery-date">Delivery Date: Thursday, 8th June</p>
+              <div class="order-item">
+                    <img class="order-item-image" src="images/bags2.jfif">
+                
+                <div class="order-item-details">
+                    <div class="order-item-name">Stripped Brown bag with gold chain handle</div>
+                    <div class="order-item-price">UGX.25000</div>
+                    <div class="order-item-quantity">Quantity:
+                        <span class="quantity-label">2</span>
+                        <span class="update-quantity">Update</span>
+                        <span class="delete-quantity">Delete</span>
+                    </div>
+                </div>
+
+                <div class="delivery-options-container">
+                <div class="delivery-options-title">
+                    Choose a delivery option:
+                </div>
+                <div class="delivery-options">
+                    <input type="radio" name="delivery-option-1" checked class="delivery-option-input">
+                    <div class="delivery-option-date">Thursday, 8th June</div>
+                    <div class="delivery-option-price">FREE </div>
+                </div>
+
+                <div class="delivery-options">
+                    <input type="radio" name="delivery-option-1" class="delivery-option-input">
+                    <div class="delivery-option-date">Friday, 9th June</div>
+                    <div class="delivery-option-price">UGX.2000</div>
+                </div>
+                </div>
+              </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="checkout3">
+      <div class="payment-summary">
+        <p class="delivery">2.ORDER SUMMARY</p>
+          <div class="payment-summary-row">
+            <div>Items (1):</div>
+            <div class="payment-summary-money">UGX.25000</div>
+            </div><br>
+
+          <div class="payment-summary-row">
+            <div>Shipping and handling:</div>
+            <div class="payment-summary-money">UGX.2000</div>
+          </div><br>
+
+          <div class="payment-summary-row subtotal-row">
+            <div>Total before tax:</div>
+            <div class="payment-summary-money">UGX.25000</div>
+          </div><br>
+
+          <div class="payment-summary-row">
+            <div>Estimated tax (10%):</div>
+            <div class="payment-summary-money">UGX.2500</div>
+          </div><br>
+
+          <div class="payment-summary-row total-row">
+            <div>Order total:</div>
+            <div class="payment-summary-money">UGX.27500</div>
+          </div><br>
+
+          <button class="place-order-button">
+            Place your order
+          </button>
+      </div>
+    
+  </div>    
+</body>
+<script type="module" src="js/checkout.js"></script>
+</html>
